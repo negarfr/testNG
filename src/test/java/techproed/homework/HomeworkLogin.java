@@ -5,6 +5,7 @@ import techproed.pages.TestHomePage;
 import techproed.pages.TestLoginPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
+import techproed.utilities.ReusableMethods;
 
 import static org.testng.AssertJUnit.assertTrue;
 
@@ -44,7 +45,10 @@ Then
 
 //    Verify user singed in
     TestHomePage testHomePage = new TestHomePage();
-    assertTrue(testHomePage.loginSuccessMessage.isDisplayed());
+ //   assertTrue(testHomePage.loginSuccessMessage.isDisplayed());
+
+    ReusableMethods.verifyElementDisplayed(testHomePage.loginSuccessMessage);
+    // ReusableMethods create this class in utilities and coppied all methods there
 }
 
 }
