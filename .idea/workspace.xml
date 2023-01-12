@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48a689c-2c95-4cc3-817f-890857c9d0f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/TestLoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/OpenSourcePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Day16_Annotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Day16_DependensOnMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Day16_SoftAssert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Day17_FirstConfigTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Day17_FirstDriverTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Day17_OpenSourceLogIn.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +44,103 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="techproed.page" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.HomeworkLogin.loginTest">
+    <configuration name="Day16_DependsOnMethods" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_DependsOnMethods" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day16_SoftAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_SoftAssert" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day17_FirstConfigTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day17_FirstConfigTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day17_FirstDriverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day17_FirstDriverTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeworkLogin.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.homework" />
+      <option name="MAIN_CLASS_NAME" value="techproed.homework.HomeworkLogin" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HomeworkLogin.loginTest" />
+        <item itemvalue="TestNG.Day17_FirstDriverTest" />
+        <item itemvalue="TestNG.Day17_FirstConfigTest" />
+        <item itemvalue="TestNG.Day16_SoftAssert" />
+        <item itemvalue="TestNG.Day16_DependsOnMethods" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
