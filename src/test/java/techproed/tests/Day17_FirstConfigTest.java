@@ -1,12 +1,11 @@
-package tests;
+package techproed.tests;
 
-import Utilities.ConfigReader;
-import Utilities.Driver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import techproed.utilities.ConfigReader;
+import techproed.utilities.Driver;
 
 public class Day17_FirstConfigTest {
-
 
     @Test
     public void firstConfigTest(){
@@ -23,16 +22,6 @@ public class Day17_FirstConfigTest {
 
 
     }
-
-
-
-
-
-
-
-
-
-
 
 
 

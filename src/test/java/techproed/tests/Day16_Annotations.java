@@ -1,24 +1,25 @@
-package tests;
+package techproed.tests;
 
 import org.testng.annotations.*;
 
-public class Day16_Annotation {
-       /*
-    suite > test > group > class > method
-    @Test : creates test case
-    @Before and @After : 10 before and after annotations. The are used to control FLOW and DESIGN of the tests
-    @Ignore : skip test case
-    @Test(enable=false) : Disable the test case. By default enable=true.
-    @Test(priority=number) : prioritize/order test case execution.
-    NOTE: Tests that has no priority parameter has a priority of 0. Test(priority=0)
-    TestNG test cases runs in alphabetical order by default.
-    We should use priority when there are multiple test cases in the same class.
-    -3, 0(ALSO TESTS WITH NO PRIORITY), 4, 9
-     */
-       @BeforeSuite
-       public void beforeSuite(){
-           System.out.println("Before Suite");
-       }
+public class Day16_Annotations {
+
+    /*
+       suite > test > group > class > method
+       @Test : creates test case
+       @Before and @After : 10 before and after annotations. The are used to control FLOW and DESIGN of the tests
+       @Ignore : skip test case
+       @Test(enable=false) : Disable the test case. By default enable=true.
+       @Test(priority=number) : prioritize/order test case execution.
+       NOTE: Tests that has no priority parameter has a priority of 0. Test(priority=0)
+       TestNG test cases runs in alphabetical order by default.
+       We should use priority when there are multiple test cases in the same class.
+       -3, 0(ALSO TESTS WITH NO PRIORITY), 4, 9
+        */
+    @BeforeSuite
+    public void beforeSuite(){
+        System.out.println("Before Suite");
+    }
     @AfterSuite
     public void afterSuite(){
         System.out.println("After Suite");
@@ -72,6 +73,9 @@ public class Day16_Annotation {
     public void test6(){
         System.out.println("test6");
     }
+
+
+
+
+
 }
-
-

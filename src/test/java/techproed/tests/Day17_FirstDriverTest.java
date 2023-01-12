@@ -1,9 +1,10 @@
-package tests;
+package techproed.tests;
 
-import Utilities.Driver;
 import org.testng.annotations.Test;
+import techproed.utilities.Driver;
 
 public class Day17_FirstDriverTest {
+
 
 
     @Test
@@ -14,6 +15,11 @@ public class Day17_FirstDriverTest {
 //        close the driver
         Driver.closeDriver();
     }
+
+
+
+
+
 
 
 

@@ -1,9 +1,10 @@
-package tests;
+package techproed.tests;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class Day16_SoftAssert {
+
 
     @Test
     public void softAssertTest(){
@@ -18,6 +19,9 @@ public class Day16_SoftAssert {
         System.out.println("Line 17 Code");
         softAssert.assertAll();//Marking the test case as FAILED or PASSED
     }
+
+
+
 
 
 

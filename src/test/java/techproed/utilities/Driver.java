@@ -1,4 +1,4 @@
-package Utilities;
+package techproed.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
-import java.util.Map;
 
 public class Driver {
 
@@ -57,8 +56,6 @@ public class Driver {
             driver=null;
         }
     }
-
-
 
 
 

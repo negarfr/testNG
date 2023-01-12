@@ -1,11 +1,12 @@
-package techproed;
+package techproed.pages;
 
-import Utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import techproed.utilities.Driver;
 
 public class OpenSourcePage {
+
 
     public OpenSourcePage(){
 //        Used to initiate the page objects
@@ -21,6 +22,9 @@ public class OpenSourcePage {
 
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement submitButton;
+
+
+
 
 
 

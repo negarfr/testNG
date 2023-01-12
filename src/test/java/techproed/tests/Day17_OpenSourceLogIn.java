@@ -1,21 +1,21 @@
-package tests;
+package techproed.tests;
 
-import Utilities.ConfigReader;
-import Utilities.Driver;
 import org.testng.annotations.Test;
-import techproed.OpenSourcePage;
+import techproed.pages.OpenSourcePage;
+import techproed.utilities.ConfigReader;
+import techproed.utilities.Driver;
 
 public class Day17_OpenSourceLogIn {
 
     /*
-       POM:
-       1. Locate the page object in the pages package
-       -username
-       -password
-       -button
-       Note: Use constructor to instantiate page objects
-       2. In test class, create page object to access the objects in the page class
-        */
+        POM:
+        1. Locate the page object in the pages package
+        -username
+        -password
+        -button
+        Note: Use constructor to instantiate page objects
+        2. In test class, create page object to access the objects in the page class
+         */
     @Test
     public void loginTest(){
         OpenSourcePage openSourcePage = new OpenSourcePage();
@@ -25,5 +25,8 @@ public class Day17_OpenSourceLogIn {
         openSourcePage.submitButton.click();
 
     }
+
+
+
 
 }

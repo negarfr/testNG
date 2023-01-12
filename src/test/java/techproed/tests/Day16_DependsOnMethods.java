@@ -1,9 +1,9 @@
-package tests;
+package techproed.tests;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Day16_DependensOnMethods {
+public class Day16_DependsOnMethods {
+
 
     @Test
     public void homePage(){
@@ -13,7 +13,7 @@ public class Day16_DependensOnMethods {
     @Test(dependsOnMethods = "homePage")
     public void searchPage(){
         System.out.println("I am on the search page");
-        Assert.assertTrue(false);
+//        Assert.assertTrue(false);
     }
     /*
     dependsOnMethods = "searchPage"  -> connecting checkOutPage to searchPage
@@ -25,11 +25,6 @@ public class Day16_DependensOnMethods {
     public void checkOutPage(){
         System.out.println("I am on the checkout page");
     }
-
-
-
-
-
 
 
 
