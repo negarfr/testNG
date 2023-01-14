@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48a689c-2c95-4cc3-817f-890857c9d0f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/XYZBankCustomerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/XYZBankHomepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/XYZBankManagerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day18_PositiveLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/XYZBankTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/TestHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_Annotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_DependsOnMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_DependsOnMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_SoftAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +48,8 @@
       <recent name="techproed.page" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.XYZBankTest">
-    <configuration name="Day18_PositiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Day16_SoftAssert.softAssertTest">
+    <configuration name="Day16_Annotations" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
@@ -63,7 +58,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day18_PositiveLoginTest" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_Annotations" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -71,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day18_PositiveLoginTest.US100201_Admin_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day16_DependsOnMethods" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
@@ -80,26 +75,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day18_PositiveLoginTest" />
-      <option name="METHOD_NAME" value="US100201_Admin_Login" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_DependsOnMethods" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeworkLogin.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day16_SoftAssert.softAssertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.homework.*" />
+          <option name="PATTERN" value="techproed.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.homework" />
-      <option name="MAIN_CLASS_NAME" value="techproed.homework.HomeworkLogin" />
-      <option name="METHOD_NAME" value="loginTest" />
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_SoftAssert" />
+      <option name="METHOD_NAME" value="softAssertTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Day16_SoftAssert.softAssertTest" />
+        <item itemvalue="TestNG.Day16_DependsOnMethods" />
+        <item itemvalue="TestNG.Day16_Annotations" />
         <item itemvalue="TestNG.XYZBankTest" />
         <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
-        <item itemvalue="TestNG.Day18_PositiveLoginTest" />
-        <item itemvalue="TestNG.Day18_PositiveLoginTest.US100201_Admin_Login" />
-        <item itemvalue="TestNG.HomeworkLogin.loginTest" />
       </list>
     </recent_temporary>
   </component>

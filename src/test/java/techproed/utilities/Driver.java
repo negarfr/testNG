@@ -15,7 +15,7 @@ public class Driver {
     private static WebDriver driver;
     //    getDriver() is used to instantiate the driver object
     public static WebDriver getDriver(){
-        if (driver==null){
+        if (driver==null){ // if driver is not created or used or instantiate it then create it
             switch (ConfigReader.getProperty("browser")) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();

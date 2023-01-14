@@ -14,9 +14,10 @@ public class Day16_SoftAssert {
         softAssert.assertEquals(3,5);//FAILS
         System.out.println("Line 13 Code");
         softAssert.assertEquals("apple","orange");//FAILS
-        System.out.println("Line 15 Code");
-        softAssert.assertTrue(false);//FAILS
         System.out.println("Line 17 Code");
+        softAssert.assertTrue(false);//FAILS
+        System.out.println("Line 19 Code");
+
         softAssert.assertAll();//Marking the test case as FAILED or PASSED
     }
 

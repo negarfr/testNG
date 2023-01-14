@@ -7,10 +7,11 @@ public class Day16_DependsOnMethods {
 
     @Test
     public void homePage(){
+
         System.out.println("I am on the home page");
     }
 
-    @Test(dependsOnMethods = "homePage")
+    @Test(dependsOnMethods = "homePage")  // Make searchPage depends on homepage
     public void searchPage(){
         System.out.println("I am on the search page");
 //        Assert.assertTrue(false);
@@ -23,6 +24,7 @@ public class Day16_DependsOnMethods {
      */
     @Test(dependsOnMethods = "searchPage")
     public void checkOutPage(){
+
         System.out.println("I am on the checkout page");
     }
 
