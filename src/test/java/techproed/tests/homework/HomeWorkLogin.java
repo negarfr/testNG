@@ -1,4 +1,4 @@
-package techproed.homework;
+package techproed.tests.homework;
 
 import org.testng.annotations.Test;
 import techproed.pages.TestHomePage;
@@ -6,8 +6,6 @@ import techproed.pages.TestLoginPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
 import techproed.utilities.ReusableMethods;
-
-import static org.testng.AssertJUnit.assertTrue;
 
 public class HomeworkLogin {
 

@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48a689c-2c95-4cc3-817f-890857c9d0f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/smoketest/Day19_NegativeLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/smoketest/reservationtests/Day19_ReservationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/homework/HomeWorkLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_Annotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_DependsOnMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_DependsOnMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_SoftAssert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/homework/HomeworkLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day18_PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day18_PositiveLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,44 +48,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="techproed.tests.homework" />
       <recent name="techproed.page" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day16_SoftAssert.softAssertTest">
-    <configuration name="Day16_Annotations" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_Annotations" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day16_DependsOnMethods" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_DependsOnMethods" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Day19_ReservationTest">
     <configuration name="Day16_SoftAssert.softAssertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
@@ -101,16 +71,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XYZBankTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day19_NegativeLoginTest.US100208_Negative_Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="PATTERN" value="techproed.smoketest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.XYZBankTest" />
+      <option name="PACKAGE_NAME" value="techproed.smoketest" />
+      <option name="MAIN_CLASS_NAME" value="techproed.smoketest.Day19_NegativeLoginTest" />
+      <option name="METHOD_NAME" value="US100208_Negative_Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day19_NegativeLoginTest.invalidCredentialTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.smoketest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.smoketest" />
+      <option name="MAIN_CLASS_NAME" value="techproed.smoketest.Day19_NegativeLoginTest" />
+      <option name="METHOD_NAME" value="invalidCredentialTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day19_ReservationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.smoketest.reservationtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.smoketest.reservationtests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.smoketest.reservationtests.Day19_ReservationTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -118,17 +124,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XYZBankTest.xyzBankTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day19_ReservationTest.reservationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="PATTERN" value="techproed.smoketest.reservationtests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.XYZBankTest" />
-      <option name="METHOD_NAME" value="xyzBankTest" />
+      <option name="PACKAGE_NAME" value="techproed.smoketest.reservationtests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.smoketest.reservationtests.Day19_ReservationTest" />
+      <option name="METHOD_NAME" value="reservationTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Day19_ReservationTest" />
+        <item itemvalue="TestNG.Day19_ReservationTest.reservationTest" />
+        <item itemvalue="TestNG.Day19_NegativeLoginTest.invalidCredentialTest" />
+        <item itemvalue="TestNG.Day19_NegativeLoginTest.US100208_Negative_Login" />
         <item itemvalue="TestNG.Day16_SoftAssert.softAssertTest" />
-        <item itemvalue="TestNG.Day16_DependsOnMethods" />
-        <item itemvalue="TestNG.Day16_Annotations" />
-        <item itemvalue="TestNG.XYZBankTest" />
-        <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
       </list>
     </recent_temporary>
   </component>

@@ -8,7 +8,9 @@ public class ConfigReader {
     //This class reads the configuration.properties file
     //Create Properties instance
     private static Properties properties;
-    static {
+
+    static {  // when is static block mean it runs first
+
         //path of the configuration file
         String path="configuration.properties";
         try {

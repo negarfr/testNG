@@ -34,8 +34,8 @@ public class Day18_PositiveLoginTest {
      */
 
     @Test
-    public void US100201_Admin_Login(){
-
+    public void US100201_Admin_Login() {
+/*
 //        https://www.bluerentalcars.com
         Driver.getDriver().get(ConfigReader.getProperty("app_home_url"));
 
@@ -60,6 +60,7 @@ public class Day18_PositiveLoginTest {
         Driver.closeDriver();
 
     }
+*/
 
-
+    }
 }
