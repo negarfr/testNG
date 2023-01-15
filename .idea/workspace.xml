@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48a689c-2c95-4cc3-817f-890857c9d0f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/mysmoketestdata.xlsxView Excel spreadsheet in Slack.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/excelautomation/Day20_ExcelLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/smoketest/reservationtests/Day19_ReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/smoketest/reservationtests/Day19_ReservationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ExcelUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,57 +34,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/testNG/src/test/java/resources",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\testNG\src\test\java\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\testNG\src\test\java\resources" />
+      <recent name="C:\testNG\src\test\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="techproed.tests.homework" />
       <recent name="techproed.page" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day19_ReservationTest">
-    <configuration name="Day16_SoftAssert.softAssertTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_SoftAssert" />
-      <option name="METHOD_NAME" value="softAssertTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day19_NegativeLoginTest.US100208_Negative_Login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.smoketest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.smoketest" />
-      <option name="MAIN_CLASS_NAME" value="techproed.smoketest.Day19_NegativeLoginTest" />
-      <option name="METHOD_NAME" value="US100208_Negative_Login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Day20_ExcelLogin">
     <configuration name="Day19_NegativeLoginTest.invalidCredentialTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
@@ -135,13 +110,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day20_ExcelLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.excelautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests.excelautomation" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.excelautomation.Day20_ExcelLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day20_ExcelLogin.customerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.excelautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests.excelautomation" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.excelautomation.Day20_ExcelLogin" />
+      <option name="METHOD_NAME" value="customerLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Day20_ExcelLogin" />
+        <item itemvalue="TestNG.Day20_ExcelLogin.customerLoginTest" />
         <item itemvalue="TestNG.Day19_ReservationTest" />
         <item itemvalue="TestNG.Day19_ReservationTest.reservationTest" />
         <item itemvalue="TestNG.Day19_NegativeLoginTest.invalidCredentialTest" />
-        <item itemvalue="TestNG.Day19_NegativeLoginTest.US100208_Negative_Login" />
-        <item itemvalue="TestNG.Day16_SoftAssert.softAssertTest" />
       </list>
     </recent_temporary>
   </component>

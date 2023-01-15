@@ -10,12 +10,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ExcelUtils {
+public class ExcelUtils { // there are some methods here we can use.
 
     private Workbook workBook;
     private Sheet workSheet;
     private String path;
-    public ExcelUtils(String path, String sheetName) {//This Constructor is to open and access the excel file
+    public ExcelUtils(String path, String sheetName) {//This Constructor is to open and access the excel file and excel sheet
         this.path = path;
         try {
             // Opening the Excel file
@@ -30,9 +30,9 @@ public class ExcelUtils {
             throw new RuntimeException(e);
         }
     }
-    //This will get the list of the data in the excel file
+    //This will get the list of the "data" in the excel file
     //This is a list of map of string. This takes the data as string and will return the data as a Map of String
-    public List<Map<String, String>> getDataList() {
+    public List<Map<String, String>> getDataList() { // use this method getDataList() to get all DATA from exclesheet
         // getting all columns
         List<String> columns = getColumnsNames();
         // method will return this
@@ -59,9 +59,11 @@ public class ExcelUtils {
     //===============how do you get the last row number?Index start at 0.====================
     public int rowCount() {
         return workSheet.getLastRowNum() + 1; }//adding 1 to get the actual count
+
     //==============When you enter row and column number, then you get the data==========
     public String getCellData(int rowNum, int colNum) {
-        Cell cell;
+
+        Cell cell;   // getCellData (4,5) gives us the cell from row4 and column 5
         try {
             cell = workSheet.getRow(rowNum).getCell(colNum);
             String cellData = cell.toString();
@@ -70,8 +72,8 @@ public class ExcelUtils {
             throw new RuntimeException(e);
         }
     }
-    //============getting all data into two dimentional array and returning the data===
-    public String[][] getDataArray() {
+    //============getting all data into two dimensional array and returning the data===
+    public String[][] getDataArray() { // return all of the test Data into 2 dimesional Arrays [][]
         String[][] data = new String[rowCount()][columnCount()];
         for (int i = 0; i < rowCount(); i++) {
             for (int j = 0; j < columnCount(); j++) {
@@ -116,6 +118,7 @@ public class ExcelUtils {
     //this method will return data table as 2d array
     //so we need this format because of data provider.
     public String[][] getDataArrayWithoutFirstRow() {
+
         String[][] data = new String[rowCount()-1][columnCount()];
         for (int i = 1; i < rowCount(); i++) {
             for (int j = 0; j < columnCount(); j++) {
