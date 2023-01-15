@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48a689c-2c95-4cc3-817f-890857c9d0f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/smoketest/Day19_NegativeLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/smoketest/reservationtests/Day19_ReservationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/homework/HomeWorkLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/homework/HomeworkLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day18_PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day18_PositiveLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/smoketest/reservationtests/Day19_ReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/smoketest/reservationtests/Day19_ReservationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
