@@ -15,7 +15,7 @@ public class ExcelUtils { // there are some methods here we can use.
     private Workbook workBook;
     private Sheet workSheet;
     private String path;
-    public ExcelUtils(String path, String sheetName) {//This Constructor is to open and access the excel file and excel sheet
+    public ExcelUtils(String path, String sheetName) {//This Constructor is to open and access the Excel file and Excel sheet
         this.path = path;
         try {
             // Opening the Excel file
