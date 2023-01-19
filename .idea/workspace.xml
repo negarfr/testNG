@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48a689c-2c95-4cc3-817f-890857c9d0f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day21_DataProvider1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day21_DataProvider2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day21_DataProvider3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runclasses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rungroup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runmethodclasses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoketest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day18_PossitiveLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/excelautomation/Day20_ExcelLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/excelautomation/Day20_ExcelLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/smoketest/Day19_NegativeLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/logintests/Day19_NegativeLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/smoketest/reservationtests/Day19_ReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/reservationtest/Day19_ReservationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +59,33 @@
       <recent name="C:\testNG\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="techproed.tests.smoketests.logintests" />
       <recent name="techproed.tests.dataprovider" />
       <recent name="techproed.tests.homework" />
       <recent name="techproed.page" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day21_DataProvider3">
-    <configuration name="Day21_DataProvider1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Day19_ReservationTest (1)">
+    <configuration name="C:/testNG/smoketest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoketest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day19_ReservationTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.dataprovider.*" />
+          <option name="PATTERN" value="techproed.tests.smoketests.reservationtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day21_DataProvider1" />
+      <option name="PACKAGE_NAME" value="techproed.tests.smoketests.reservationtest" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.smoketests.reservationtest.Day19_ReservationTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -78,18 +93,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day21_DataProvider1.dataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day19_ReservationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.dataprovider.*" />
+          <option name="PATTERN" value="techproed.smoketest.reservationtests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day21_DataProvider1" />
-      <option name="METHOD_NAME" value="dataProviderTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="techproed.smoketest.reservationtests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.smoketest.reservationtests.Day19_ReservationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -107,24 +121,6 @@
       <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
       <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day21_DataProvider2" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day21_DataProvider2.customerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.dataprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.dataprovider.Day21_DataProvider2" />
-      <option name="METHOD_NAME" value="customerLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -150,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Day19_ReservationTest (1)" />
+        <item itemvalue="TestNG.Day19_ReservationTest" />
+        <item itemvalue="TestNG.C:/testNG/smoketest.xml" />
         <item itemvalue="TestNG.Day21_DataProvider3" />
         <item itemvalue="TestNG.Day21_DataProvider2" />
-        <item itemvalue="TestNG.Day21_DataProvider2.customerLoginTest" />
-        <item itemvalue="TestNG.Day21_DataProvider1" />
-        <item itemvalue="TestNG.Day21_DataProvider1.dataProviderTest" />
       </list>
     </recent_temporary>
   </component>

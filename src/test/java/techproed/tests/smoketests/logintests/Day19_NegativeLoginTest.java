@@ -1,7 +1,8 @@
-package techproed.smoketest.reservationtests;
+package techproed.tests.smoketests.logintests;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import techproed.pages.HomePage;
 import techproed.pages.LoginPage;
@@ -9,48 +10,31 @@ import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
 import techproed.utilities.ReusableMethods;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Locale;
 
-public class Day19_ReservationTest {
-    /*
-    Name:
-    User should be able to reserve a car
-    Description:
-    User should be able to reserve a car as customer service profile
-    Acceptance Criteria:
-    Given user is on the home page
-    And select a car
-    And enter pick up field
-    And enter drop off field
-    And click continue reservation
-    And verify complete reservation screen pops up
-    And enter card number
-    And enter name on the card
-    And enter expire date and CVC
-    And checks the agreement
-    And click complete reservation
-    Then verify ‘Reservation created successfully’ pop up
-    And naviaged to Reservations screen
-    And verify the last reservation is created
-    When you click on the last reservation
-    Then verify reservation detail page is displayed
-    And verify the table has the following fields: Model, Doors, Seats, Luggage, Transmission, Air Conditioning, Fuel Type, Age
-    And click on back to reservations
-    And verify Reservations page is displayed
-    And click on Home link
-    Then verify the home page is displayed
+public class Day19_NegativeLoginTest {
 
-  */
+    //==> in this case we are going to Test Nagative Test <==
+/*
+    Name:
+    US100208_Negative_Login
+    Description:
+    User should not be able login with incorrect credentials
+    Acceptance Criteria:
+    As customer, I should not be able to log in the application
+    Customer email: fake@bluerentalcars.com
+    Customer password: fakepass
+    Error: User with fake@bluerentalcars.com not found
+*/
 
     HomePage homePage;
     LoginPage loginPage;
     Faker faker;
     @Test
     public void reservationTest(){
-
 //        Given user is on the home page
         Driver.getDriver().get(ConfigReader.getProperty("app_home_url"));
 
@@ -67,9 +51,10 @@ public class Day19_ReservationTest {
         ReusableMethods.waitFor(3);
         loginPage.loginButton.click();
         ReusableMethods.waitFor(3);
-
 //        Verify login is successful
         ReusableMethods.verifyElementDisplayed(homePage.userID);
+
+
 
 
 //        NOW THAT U LOGGED IN THE APPLICATION, WE CAN ENTER THE REQUIRED FIELDS
@@ -82,30 +67,37 @@ public class Day19_ReservationTest {
         homePage.pickUpLocation.sendKeys(Faker.instance(Locale.US).address().cityName());
 //        And enter drop off field
         homePage.dropOfLocation.sendKeys(Faker.instance(Locale.US).address().cityName());
+
 //        Pick Up date
 //        Pick up time
 //        drop off date
 //        drop of time
+
         SimpleDateFormat simpleDateFormat1=new SimpleDateFormat("hhmmaa");
-        Calendar calendar=Calendar.getInstance();
+        Calendar calendar= Calendar.getInstance();
+
 //        enter pick up date
-        homePage.pickUpDate.sendKeys("24/08/2024");
+        homePage.pickUpDate.sendKeys("10/10/2045");
 //        enter pick up hour
         homePage.pickUpTime.sendKeys(simpleDateFormat1.format(calendar.getTime()));
 //       enter drop of date
-        homePage.dropOffDate.sendKeys("28/08/2024");
+        homePage.dropOffDate.sendKeys("12/11/2045");
 //        enter drop of hour
         homePage.dropOffTime.sendKeys(simpleDateFormat1.format(calendar.getTime()));
+
 //        =====================================================
 //        And click continue reservation
         homePage.continueReservationButton.click();
+
+//        CAR IS NOT RESERVED There is a BLOCKER......
+
 //        And verify complete reservation screen pops up
 //        And enter card number
 //        And enter name on the card
 //        And enter expire date and CVC
 //        And checks the agreement
 //        And click complete reservation
-//        Then verify ‘Reservation created successfully’ pop up
+//        Then verify 'Reservation created successfully' pop up
 //        And naviaged to Reservations screen
 //        And verify the last reservation is created
 //        When you click on the last reservation
@@ -115,10 +107,8 @@ public class Day19_ReservationTest {
 //        And verify Reservations page is displayed
 //        And click on Home link
 //        Then verify the home page is displayed
-
-
-
     }
+
 
 
 }
