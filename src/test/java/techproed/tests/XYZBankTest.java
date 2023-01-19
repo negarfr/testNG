@@ -17,13 +17,13 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class XYZBankTest {
-
 //===> User Story :
 // Open 5 new Accounts, deposit 100 USD and withdraw 100 USD from any account and delete all accounts.
 //https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+//=============================================================================================================
 
-    /*              first we write our Test Case
-    Given
+    /*  FIRST: we do MANUAL TESTING,and THEN based on steps we do on website we write our TEST CASE as bellow :
+Given
     Go to url https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 When
     Click on "Bank Manager Login" button
@@ -98,13 +98,13 @@ And
 Then
     Assert that number of customers is 0
      */
-
     @Test
     public void xyzBankTest() {
+
 //    Go to url https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
         Driver.getDriver().get(ConfigReader.getProperty("xyzBank_URL"));
 
-//    Click on "Bank Manager Login" button  ==> we create homepage for this
+//    Click on "Bank Manager Login" button  ==> we create homepage for xyzBank
         XYZBankHomepage xyzBankHomepage = new XYZBankHomepage();
         xyzBankHomepage.bankManagerLoginButton.click();
 
@@ -114,7 +114,7 @@ Then
 
 //    Fill inputs and click on "Add Customer" submit button
 
-        Faker faker = new Faker();  // with this faker we can get fake names
+     Faker faker = new Faker();  // with this faker we can get fake names
        for (int i=0; i<5; i++) {
 
            xyzBankManagerPage.firstNameInput.sendKeys(faker.name().firstName());
