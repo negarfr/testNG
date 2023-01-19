@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48a689c-2c95-4cc3-817f-890857c9d0f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/parallel-testing.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/paralleltesting/Day22_ManagerLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/paralleltesting/Day22_SearchItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listerners1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/ListernersTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/ListernersTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listerners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/XYZBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/XYZBankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel-testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parallel-testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KBqsydFJsJrRSPuy6tQon7hE3n" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -45,7 +46,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -58,13 +59,14 @@
       <recent name="C:\testNG\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="techproed.tests" />
       <recent name="techproed.tests.smoketests.logintests" />
       <recent name="techproed.tests.dataprovider" />
       <recent name="techproed.tests.homework" />
       <recent name="techproed.page" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day22_SearchItem.googleSearch">
+  <component name="RunManager" selected="TestNG.C:/testNG/testng.xml">
     <configuration name="C:/testNG/parallel-testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel-testing.xml" />
@@ -75,52 +77,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day19_ReservationTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/testNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.smoketests.reservationtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.smoketests.reservationtest" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.smoketests.reservationtest.Day19_ReservationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day19_ReservationTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.smoketest.reservationtests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.smoketest.reservationtests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.smoketest.reservationtests.Day19_ReservationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day22_ManagerLogin.customerLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.paralleltesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.paralleltesting" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.paralleltesting.Day22_ManagerLogin" />
-      <option name="METHOD_NAME" value="customerLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,13 +105,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListernersTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.ListernersTest1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListernersTest1.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.ListernersTest1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day22_SearchItem.googleSearch" />
+        <item itemvalue="TestNG.C:/testNG/testng.xml" />
+        <item itemvalue="TestNG.ListernersTest1" />
+        <item itemvalue="TestNG.ListernersTest1.test1" />
         <item itemvalue="TestNG.C:/testNG/parallel-testing.xml" />
-        <item itemvalue="TestNG.Day22_ManagerLogin.customerLogin" />
-        <item itemvalue="TestNG.Day19_ReservationTest (1)" />
-        <item itemvalue="TestNG.Day19_ReservationTest" />
+        <item itemvalue="TestNG.Day22_SearchItem.googleSearch" />
       </list>
     </recent_temporary>
   </component>
