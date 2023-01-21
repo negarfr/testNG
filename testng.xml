@@ -1,21 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-
-    <listeners>
-        <listener class-name = "techproed.utilities.Listerners"></listener>
-    </listeners>
-
-    <test verbose="2" preserve-order="true" name="C:/testNG/src/test/java/techproed/tests/ListernersTest2.java">
-        <classes>
-            <class name="techproed.tests.ListernersTest2">
-                <methods>
-                    <include name="test1"/>
-                    <include name="test2"/>
-                    <include name="test3"/>
-                    <include name="test4"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/testNG/src/test/java/techproed/tests/Day16_DependsOnMethods.java"><classes><class name="techproed.tests.Day16_DependsOnMethods"><methods><include name="homePage"/><include name="searchPage"/><include name="checkOutPage"/></methods></class></classes></test></suite>

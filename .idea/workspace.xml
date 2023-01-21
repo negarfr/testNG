@@ -6,20 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f48a689c-2c95-4cc3-817f-890857c9d0f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-smoketest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice-smoketest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaPatientPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaPatientPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/SauceDemoHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/SauceDemoHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/SauceDemoProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/SauceDemoProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/XYZBankHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/XYZBankHomepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/XYZBankManagerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/XYZBankManagerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/MedunnaPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/MedunnaPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/SauceDemoPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/SauceDemoPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/XYZBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/XYZBankTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day21_DataProvider3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day21_DataProvider3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/JSUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listerners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listerners.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,10 +62,10 @@
       <recent name="techproed.tests.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MedunnaPatient">
-    <configuration name="C:/testNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/testNG/listerners1.xml">
+    <configuration name="C:/testNG/listerners1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/listerners1.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -159,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/testNG/listerners1.xml" />
+        <item itemvalue="TestNG.ListernersTest1" />
         <item itemvalue="TestNG.MedunnaPatient" />
         <item itemvalue="TestNG.MedunnaPatient.createPatient" />
         <item itemvalue="TestNG.SauceDemoPrice.totalPrice" />
-        <item itemvalue="TestNG.C:/testNG/testng.xml" />
-        <item itemvalue="TestNG.ListernersTest1" />
       </list>
     </recent_temporary>
   </component>
