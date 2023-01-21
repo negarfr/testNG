@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48a689c-2c95-4cc3-817f-890857c9d0f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/listerners1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/ListernersTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/ListernersTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listerners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parallel-testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parallel-testing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice-smoketest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice-smoketest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaPatientPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/MedunnaPatientPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/SauceDemoHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/SauceDemoHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/SauceDemoProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/SauceDemoProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/XYZBankHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/XYZBankHomepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/XYZBankManagerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/XYZBankManagerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/MedunnaPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/MedunnaPatient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/SauceDemoPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/SauceDemoPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/XYZBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/XYZBankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day21_DataProvider3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day21_DataProvider3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/JSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listerners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listerners.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +47,18 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/testNG",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/testNG&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\testNG" />
@@ -59,46 +69,18 @@
       <recent name="C:\testNG\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="techproed.pages" />
       <recent name="techproed.tests" />
       <recent name="techproed.tests.smoketests.logintests" />
       <recent name="techproed.tests.dataprovider" />
       <recent name="techproed.tests.homework" />
-      <recent name="techproed.page" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/testNG/testng.xml">
-    <configuration name="C:/testNG/parallel-testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel-testing.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.MedunnaPatient">
     <configuration name="C:/testNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day22_SearchItem.googleSearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.paralleltesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.paralleltesting" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.paralleltesting.Day22_SearchItem" />
-      <option name="METHOD_NAME" value="googleSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -122,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListernersTest1.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MedunnaPatient" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +113,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.ListernersTest1" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.MedunnaPatient" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedunnaPatient.createPatient" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.MedunnaPatient" />
+      <option name="METHOD_NAME" value="createPatient" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SauceDemoPrice.totalPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.SauceDemoPrice" />
+      <option name="METHOD_NAME" value="totalPrice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MedunnaPatient" />
+        <item itemvalue="TestNG.MedunnaPatient.createPatient" />
+        <item itemvalue="TestNG.SauceDemoPrice.totalPrice" />
         <item itemvalue="TestNG.C:/testNG/testng.xml" />
         <item itemvalue="TestNG.ListernersTest1" />
-        <item itemvalue="TestNG.ListernersTest1.test1" />
-        <item itemvalue="TestNG.C:/testNG/parallel-testing.xml" />
-        <item itemvalue="TestNG.Day22_SearchItem.googleSearch" />
       </list>
     </recent_temporary>
   </component>

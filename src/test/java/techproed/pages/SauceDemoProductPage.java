@@ -5,22 +5,19 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import techproed.utilities.Driver;
 
-public class SauceDemoHomePage {
+import java.util.List;
+
+public class SauceDemoProductPage {
 
 
-    public SauceDemoHomePage(){
+    public SauceDemoProductPage(){
 
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(id = "user-name")
-    public WebElement usernameInput;
+    @FindBy(xpath = "//div[@class='inventory_item_price']")
 
-    @FindBy(id = "password")
-    public WebElement passwordInput;
-
-    @FindBy(id = "login-button")
-    public WebElement loginButton;
+   public List<WebElement> pricesList;
 
 
 

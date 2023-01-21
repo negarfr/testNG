@@ -38,8 +38,10 @@ public void onStart(ITestContext context) {
         System.out.println("onTestFailure - Execute ONCE after EACH FAILED @Test: " + result.getName());
     }
 
+
     @Override
     public void onTestSkipped(ITestResult result) {
         System.out.println("onTestSkipped - Execute ONCE after EACH SKIPPED @Test: " + result.getName());
     }
+
 }

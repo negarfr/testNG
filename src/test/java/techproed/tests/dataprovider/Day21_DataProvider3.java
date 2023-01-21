@@ -17,8 +17,9 @@ public class Day21_DataProvider3 {
 
     @DataProvider
     public Object[][] customerData() {
-        ExcelUtils excelUtils = new ExcelUtils("src/test/java/resources/mysmoketestdata.xlsx", "customer_info");// need Object first
-        Object[][] customerCredentials = excelUtils.getDataArrayWithoutFirstRow();
+    ExcelUtils excelUtils = new ExcelUtils("src/test/java/resources/mysmoketestdata.xlsx", "customer_info");// need Object first
+
+    Object[][] customerCredentials = excelUtils.getDataArrayWithoutFirstRow();
 
                                                         // we are going to get 2 Dimensional Array from Xcel Utilities
                                                     /*  {  {"sam.walker@bluerentalcars.com", "c!fas_art"},

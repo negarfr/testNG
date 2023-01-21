@@ -11,8 +11,7 @@ public class XYZBankManagerPage {
 
     public XYZBankManagerPage() {
 
-
-        PageFactory.initElements(Driver.getDriver(),this);
+        PageFactory.initElements(Driver.getDriver(),this); // Create Constructor
     }
     @FindBy(xpath = "//button[@ng-class='btnClass1']")
     public WebElement addCustomerButton;

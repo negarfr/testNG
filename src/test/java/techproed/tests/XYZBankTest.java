@@ -17,12 +17,15 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class XYZBankTest {
+
 //===> User Story :
 // Open 5 new Accounts, deposit 100 USD and withdraw 100 USD from any account and delete all accounts.
 //https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+
 //=============================================================================================================
 
-    /*  FIRST: we do MANUAL TESTING,and THEN based on steps we do on website we write our TEST CASE as bellow :
+  /* >>  FIRST: we do MANUAL TESTING to understand the whole feature of the application.
+     >>    and THEN based on steps we do on website we write our TEST CASE as bellow :
 Given
     Go to url https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 When
@@ -98,14 +101,16 @@ And
 Then
     Assert that number of customers is 0
      */
-    @Test
+    @Test(groups="smoke-test")
     public void xyzBankTest() {
 
 //    Go to url https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+//// URL >> to be able to change the URL whenever we want, we should put it into the *configuration.properties* file, just put the name here
         Driver.getDriver().get(ConfigReader.getProperty("xyzBank_URL"));
 
-//    Click on "Bank Manager Login" button  ==> we create homepage for xyzBank
-        XYZBankHomepage xyzBankHomepage = new XYZBankHomepage();
+//    Click on "Bank Manager Login" button
+////   we need to create HOMEPAGE  ==check that page for all details
+        XYZBankHomepage xyzBankHomepage = new XYZBankHomepage(); // create object to access HomePage with name constructor XYZBankHomepage()
         xyzBankHomepage.bankManagerLoginButton.click();
 
 //    Click on "Add Customer" button  ==> create new page
@@ -114,8 +119,9 @@ Then
 
 //    Fill inputs and click on "Add Customer" submit button
 
-     Faker faker = new Faker();  // with this faker we can get fake names
-       for (int i=0; i<5; i++) {
+       Faker faker = new Faker();  //we need to make sure we have Java Faker dependency to add fake customers to add
+
+       for (int i=0; i<5; i++) {  //
 
            xyzBankManagerPage.firstNameInput.sendKeys(faker.name().firstName());
            xyzBankManagerPage.lastNameInput.sendKeys(faker.name().lastName());
@@ -123,14 +129,14 @@ Then
            xyzBankManagerPage.addcutomerSubmitButton.click();
 
 //    Accept alert
-           try {
+           try {    // to ignore the exception
                Driver.getDriver().switchTo().alert().accept();
            } catch (Exception ignored) {
 
            }
-
-//    Add 4 more customers ======= >for this we add Loop in tope so it will add 4 more fake Customer
        }
+//    Add 4 more customers ======= >for this we add Loop in tope so it will add 4 more fake Customer
+
 //    Click on "Open Account"  button
         xyzBankManagerPage.openAccountButton.click();
 
