@@ -1,22 +1,14 @@
-package techproed.tests;
+package techproed.tests.listeners;
 
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.SkipException;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import techproed.utilities.Driver;
 
 import static org.testng.Assert.assertTrue;
 
-@Listeners(techproed.utilities.Listerners.class) // path of the listeners in our package
+public class ListenersTest2 {
 
-/*
-USE @Listeners annotation to connect test classes and listeners
-techproed.utilities.Listeners.class ==> path of listeners utility
- */
-
-public class ListernersTest1 {
 
     @Test
     public void test1(){
@@ -44,5 +36,7 @@ public class ListernersTest1 {
         Driver.getDriver().get("https://techproeducation.com/");
         Driver.getDriver().findElement(By.id("abdc")); // NO SUCH ELEMENT EXCEPTION
     }
+
+
 
 }

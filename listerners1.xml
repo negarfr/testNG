@@ -9,7 +9,7 @@
 
     <test name="Login Test Classes">
         <classes>
-            <class name="techproed.tests.ListernersTest2"/>
+            <class name="techproed.tests.listeners.ListenersTest3"/>
 
         </classes>
     </test>

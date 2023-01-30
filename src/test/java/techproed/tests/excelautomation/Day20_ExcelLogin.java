@@ -14,7 +14,8 @@ import java.util.Map;
 
 public class Day20_ExcelLogin {
 
-    HomePage homePage;    LoginPage loginPage;
+    HomePage homePage;
+    LoginPage loginPage;
     ExcelUtils excelUtils;
     //    will store excel data
     List<Map<String,String>> allTestData;

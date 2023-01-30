@@ -9,7 +9,7 @@ import techproed.utilities.ReusableMethods;
 
 public class Day18_PositiveLoginTest {
 
-    //    Name: US100201_Admin_Login
+//    Name: US100201_Admin_Login
 //    Description:
 //    User should be able login as admin
 //    Acceptance Criteria:
