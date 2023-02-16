@@ -1,5 +1,6 @@
 package techproed.tests;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 import techproed.pages.HomePage;
 import techproed.pages.LoginPage;
@@ -36,30 +37,34 @@ public class Day18_PositiveLoginTest {
     @Test
     public void US100201_Admin_Login() {
 /*
-//        https://www.bluerentalcars.com
-        Driver.getDriver().get(ConfigReader.getProperty("app_home_url"));
+        HomePage homePage;
+        LoginPage loginPage;
 
-//        click on log in button
-        HomePage homePage = new HomePage();
-        homePage.HomePageloginButton.click();
+        @Test
+        public void US100201_Admin_Login(){
+            Reporter.log("Going to the application URL");
+//going blue rental car home page
+            Driver.getDriver().get(ConfigReader.getProperty("app_home_url"));
+//        click on home page login link
+            homePage = new HomePage();
+            loginPage = new LoginPage();
+            ReusableMethods.waitFor(3);
+            homePage.homePageLoginLink.click();
+//        sending credentials and clicking on login button
+            ReusableMethods.waitFor(3);
+            loginPage.userName.sendKeys("jack@gmail.com");
+            ReusableMethods.waitFor(3);
+            loginPage.password.sendKeys("12345");
+            ReusableMethods.waitFor(3);
+            loginPage.loginButton.click();
+            ReusableMethods.waitFor(3);
+//        Verify login is successful
+            ReusableMethods.verifyElementDisplayed(homePage.userID);
+//        ALTERNATIVELY WE CAN ASSERT IF HOME PAGE LOGIN LINK IS NOT DISPLAYED. NOT RECOMMENDED
+//        ReusableMethods.verifyElementNotDisplayed(homePage.homePageLoginLink);
+            Driver.closeDriver();
+            Reporter.log("Test is complete...");
 
-//        Type john@doe.com into email input
-
-        LoginPage loginPage = new LoginPage();
-
-//        Type John.123 into password input
-        loginPage.passwordInput.click();
-        loginPage.emailInput.sendKeys("john@doe.com");
-//        Click on login submit Button
-        loginPage.passwordInput.sendKeys("John.123");
-//        Verify user log in
-
-        //        assertTrue(homePage.usernameDropDown.isDisplayed());
-        ReusableMethods.verifyElementDisplayed(homePage.usernameDropDown);//Recommended
-
-        Driver.closeDriver();
-
-    }
 */
 
     }

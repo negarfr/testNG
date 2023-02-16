@@ -7,16 +7,11 @@ import techproed.utilities.Driver;
 public class ListenersTest4<retryAnalyzer> {
 
 
-//    @Test
-//    public void test1(retryAnalyzer = techproed.utilities.ListernersRetry.class){
-//        Driver.getDriver().get("https://techproeducation.com/");
-//        Assert.assertTrue(false);
-//    }
-//
-//
-//
-
-
+    @Test (retryAnalyzer = techproed.utilities.ListernersRetry.class)
+        public void test1(){
+        Driver.getDriver().get("https://techproeducation.com/");
+        Assert.assertTrue(false);
+    }
 
 
 }

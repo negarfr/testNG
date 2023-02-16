@@ -9,6 +9,9 @@ import techproed.utilities.Driver;
 public class LoginPage {
 
 
+    public WebElement passwordInput;
+    public Alert emailInput;
+
     public LoginPage() {
 
         PageFactory.initElements(Driver.getDriver(), this);

@@ -1,5 +1,6 @@
 package techproed.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -7,6 +8,9 @@ import org.w3c.dom.html.HTMLInputElement;
 import techproed.utilities.Driver;
 
 public class HomePage {
+
+    public HTMLInputElement HomePageloginButton;
+    public By usernameDropDown;
 
     public HomePage(){
         PageFactory.initElements(Driver.getDriver(),this);

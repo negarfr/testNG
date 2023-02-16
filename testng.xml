@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <listeners>
-        <!--        Attaching the Listeners-->
-        <listener class-name="techproed.utilities.Listerners"></listener>
-    </listeners>
-    <test verbose="2" preserve-order="true"
-          name="/Users/techproed/IdeaProjects/testNGProject/src/test/java/techproed/tests/listeners/ListenersTest3.java">
-        <classes>
-            <class name="techproed.tests.listeners.ListenersTest3">
-                <methods>
-                    <include name="US100201_Admin_Login"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/testNG"><classes><class name="techproed.tests.Day16_Annotations"><methods><include name="beforeSuite"/><include name="test1"/><include name="test2"/><include name="test3"/><include name="test4"/><include name="test5"/><include name="test6"/></methods></class><class name="techproed.tests.Day16_DependsOnMethods"><methods><include name="homePage"/><include name="searchPage"/><include name="checkOutPage"/></methods></class><class name="techproed.tests.Day16_SoftAssert"><methods><include name="softAssertTest"/></methods></class><class name="techproed.tests.Day17_FirstConfigTest"><methods><include name="firstConfigTest"/></methods></class><class name="techproed.tests.Day17_FirstDriverTest"><methods><include name="firstDriverTest"/></methods></class><class name="techproed.tests.Day17_OpenSourceLogIn"><methods><include name="loginTest"/></methods></class><class name="techproed.tests.Day18_PositiveLoginTest"><methods><include name="US100201_Admin_Login"/></methods></class><class name="techproed.tests.MedunnaPatient"><methods><include name="createPatient"/></methods></class><class name="techproed.tests.SauceDemoPrice"><methods><include name="totalPrice"/></methods></class><class name="techproed.tests.XYZBankTest"><methods><include name="xyzBankTest"/></methods></class><class name="techproed.tests.dataprovider.Day21_DataProvider1"><methods><include name="dataProviderTest1"/><include name="dataProviderTest"/></methods></class><class name="techproed.tests.dataprovider.Day21_DataProvider2"><methods><include name="customerLoginTest"/></methods></class><class name="techproed.tests.dataprovider.Day21_DataProvider3"><methods><include name="customerLoginTest"/></methods></class><class name="techproed.tests.excelautomation.Day20_ExcelLogin"><methods><include name="customerLoginTest"/></methods></class><class name="techproed.tests.homework.HomeworkLogin"><methods><include name="loginTest"/></methods></class><class name="techproed.tests.listeners.ListenersTest05"><methods><include name="test1"/></methods></class><class name="techproed.tests.listeners.ListenersTest2"><methods><include name="test1"/><include name="test2"/><include name="test3"/><include name="test4"/></methods></class><class name="techproed.tests.listeners.ListenersTest3"><methods><include name="US100201_Admin_Login"/></methods></class><class name="techproed.tests.listeners.ListenersTest4"><methods><include name="test1"/></methods></class>
+    <class name="techproed.tests.listeners.ListernersTest1">
+        <methods>
+            <include name="test1"/>
+            <include name="test2"/>
+            <include name="test3"/>
+            <include name="test4"/>
+        </methods>
+    </class>
+    <class name="techproed.tests.paralleltesting.Day22_ManagerLogin">
+        <methods>
+            <include name="customerLogin"/>
+        </methods>
+    </class>
+    <class name="techproed.tests.paralleltesting.Day22_SearchItem">
+        <methods>
+            <include name="googleSearch"/>
+            <include name="ebaySearch"/>
+            <include name="amazonSearch"/>
+        </methods>
+    </class>
+    <class name="techproed.tests.paralleltesting.Day22_TechproEducation">
+        <methods>
+            <include name="lmsPageNavigation"/>
+        </methods>
+    </class>
+    <class name="techproed.tests.smoketests.Day18_PossitiveLoginTest">
+        <methods>
+            <include name="US100201_Admin_Login"/>
+        </methods>
+    </class>
+    <class name="techproed.tests.smoketests.logintests.Day19_NegativeLoginTest">
+        <methods>
+            <include name="reservationTest"/>
+        </methods>
+    </class>
+    <class name="techproed.tests.smoketests.reservationtest.Day19_ReservationTest">
+        <methods>
+            <include name="US100208_Negative_Login"/>
+            <include name="invalidCredsTest"/>
+        </methods>
+    </class>
+    <class name="techproed.utilities.Listerners">
+        <methods>
+            <include name="onTestSuccess"/>
+            <include name="onTestFailure"/>
+        </methods>
+    </class>
+</classes>
+</test>
 </suite>

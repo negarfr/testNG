@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48a689c-2c95-4cc3-817f-890857c9d0f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ListenersRetry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ListenersRetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/listeners/ListenersTest05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/testngreport.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day18_PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day18_PositiveLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/listeners/ListenersTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/listeners/ListenersTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/listeners/ListenersTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/listeners/ListenersTest4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/listeners2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +72,53 @@
       <recent name="techproed.tests.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day18_PositiveLoginTest.US100201_Admin_Login">
+  <component name="RunManager" selected="TestNG.C:/testNG/testng.xml">
     <configuration name="C:/testNG/listerners1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/listerners1.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+        <listener class="org.testng.reporters.SuiteHTMLReporter" />
+        <listener class="org.testng.reporters.TestHTMLReporter" />
+        <listener class="org.testng.reporters.TextReporter" />
+        <listener class="org.testng.reporters.TextReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/testNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+        <listener class="org.testng.reporters.SuiteHTMLReporter" />
+        <listener class="org.testng.reporters.TestHTMLReporter" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,16 +142,26 @@
     </configuration>
     <configuration name="Day18_PositiveLoginTest.US100201_Admin_Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="techproed.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="techproed.tests" />
       <option name="MAIN_CLASS_NAME" value="techproed.tests.Day18_PositiveLoginTest" />
       <option name="METHOD_NAME" value="US100201_Admin_Login" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -130,30 +185,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedunnaPatient" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.listeners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.MedunnaPatient" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/testNG/testng.xml" />
+      <item itemvalue="TestNG.C:/testNG/listerners1.xml" />
+      <item itemvalue="TestNG.Day16_Annotations" />
+      <item itemvalue="TestNG.Day18_PositiveLoginTest.US100201_Admin_Login" />
+      <item itemvalue="TestNG.ListernersTest1" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/testNG/testng.xml" />
         <item itemvalue="TestNG.Day18_PositiveLoginTest.US100201_Admin_Login" />
         <item itemvalue="TestNG.Day16_Annotations" />
         <item itemvalue="TestNG.C:/testNG/listerners1.xml" />
         <item itemvalue="TestNG.ListernersTest1" />
-        <item itemvalue="TestNG.MedunnaPatient" />
       </list>
     </recent_temporary>
   </component>
